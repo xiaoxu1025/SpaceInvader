@@ -80,7 +80,7 @@ class NatureDQN(DQN):
             self.step_nums, self.step_nums // self.target_update_freq))
             self.update_target_model_weights()
 
-    def fit(self, env, iterations_nums=5000000):
+    def fit(self, env, iterations_nums=1000000):
         print('init replay memory start')
         self.clear()
 
