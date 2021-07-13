@@ -8,9 +8,12 @@
 
 2 pip install gym[atari]
 
-3 由于项目需要ffmpeg环境 故也需要安装
+3 由于项目需要ffmpeg
+
   mac brew install ffmpeg
+  
   linux sudo apt-get install ffmpeg
+  
   window 请搜索解决
   
 训练：
